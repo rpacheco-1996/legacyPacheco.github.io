@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/legacyPacheco.github.io/static/css/main.16406cae.css",
-    "main.js": "/legacyPacheco.github.io/static/js/main.e8cedfd0.js",
+    "main.js": "/legacyPacheco.github.io/static/js/main.29dac4b2.js",
     "static/js/453.d9d1b963.chunk.js": "/legacyPacheco.github.io/static/js/453.d9d1b963.chunk.js",
     "index.html": "/legacyPacheco.github.io/index.html",
     "main.16406cae.css.map": "/legacyPacheco.github.io/static/css/main.16406cae.css.map",
-    "main.e8cedfd0.js.map": "/legacyPacheco.github.io/static/js/main.e8cedfd0.js.map",
+    "main.29dac4b2.js.map": "/legacyPacheco.github.io/static/js/main.29dac4b2.js.map",
     "453.d9d1b963.chunk.js.map": "/legacyPacheco.github.io/static/js/453.d9d1b963.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.16406cae.css",
-    "static/js/main.e8cedfd0.js"
+    "static/js/main.29dac4b2.js"
   ]
 }
