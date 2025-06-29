@@ -1,2 +1,4 @@
 # legacyPacheco
-Repo for Ryan Pacheco Legacy coding project
+Repo for Ryan Pacheco Legacy coding project. This contains the front end code which is a simple react app. It is nothing fancy but it interfaces with my backend services such as a postgres database and a hosted model. This repo also consists of some jupyter notebooks that I used to do data work such as reading the dataset into a postgres database and training the random forest model. These notebooks are here because this was the first repo I spun up for this project. In a production environment these would be in their own repo most likely focusing on data tools.
+* Backend Repo
+	* https://github.com/rpacheco-1996/legacyBackend#
