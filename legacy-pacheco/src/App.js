@@ -10,6 +10,7 @@ function App() {
   // Database query for keyword to responses feature
   const handleSubmit = async () => {
     try {
+      setApiResponse("Loading...");
       const query = encodeURIComponent(userInput);
       const url = `https://legacybackend-ei8g.onrender.com/legacy?input=${query}`;
 

@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 
 function Dropdown() {
-    const [clinics, setClinics] = useState([]);
-    const [doctors, setDoctors] = useState([]);
+    const [clinics, setClinics] = useState(["Loading..."]);
+    const [doctors, setDoctors] = useState(["Loading..."]);
     const [selectedClinic, setSelectedClinic] = useState("");
     const [selectedDoctor, setSelectedDoctor] = useState("");
     const [userAge, setUserAge] = useState("");
@@ -32,6 +32,7 @@ function Dropdown() {
             doctor: selectedDoctor,
             age: userAge,
         };
+        setApiResponse("Loading...")
 
         fetch("https://legacybackend-ei8g.onrender.com/predict", {
             method: "POST",
